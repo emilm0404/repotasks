@@ -1,0 +1,53 @@
+<h2>Employees</h2>
+
+<div class="controls">
+    <input [(ngModel)]="search"
+           placeholder="Search name or number"
+           (keyup.enter)="page = 1; load()"
+           aria-label="Search employees" />
+    <button class="btn" (click)="page = 1; load()">Search</button>
+    <a class="btn primary" routerLink="/employees/new">Add Employee</a>
+</div>
+
+<p class="err" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+<div *ngIf="loading" class="muted" style="margin:8px 0;">Loading.</div>
+
+<table *ngIf="!loading && rows.length" aria-label="Employees table">
+    <thead>
+        <tr>
+            <th (click)="setSort('LastName')" [title]="'Sort by last name ('+dir+')'">
+                Last Name <span class="sort" *ngIf="sort==='LastName'">({{dir}})</span>
+            </th>
+            <th (click)="setSort('FirstName')" [title]="'Sort by first name ('+dir+')'">
+                First Name <span class="sort" *ngIf="sort==='FirstName'">({{dir}})</span>
+            </th>
+            <th (click)="setSort('EmployeeNumber')" [title]="'Sort by employee number ('+dir+')'">
+                Employee #
+                <span class="sort" *ngIf="sort==='EmployeeNumber'">({{dir}})</span>
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of rows; trackBy: trackById">
+            <td>{{ e.lastName }}</td>
+            <td>{{ e.firstName }}</td>
+            <td>{{ e.employeeNumber }}</td>
+            <td class="actions">
+                <a class="btn" [routerLink]="['/employees', e.id, 'edit']">Edit</a>
+                <button class="btn danger" (click)="remove(e)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<p *ngIf="!loading && !rows.length" class="muted" style="margin-top:8px;">
+    No employees found.
+</p>
+
+<div class="pager" *ngIf="totalPages > 1">
+    <button class="btn" [disabled]="page <= 1" (click)="page = page - 1; load()">Prev</button>
+    Page {{ page }} / {{ totalPages }}
+    <button class="btn" [disabled]="page >= totalPages" (click)="page = page + 1; load()">Next</button>
+</div>

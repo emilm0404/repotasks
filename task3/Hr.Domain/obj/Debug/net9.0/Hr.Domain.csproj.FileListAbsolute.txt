@@ -1,0 +1,12 @@
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\bin\Debug\net9.0\Hr.Domain.deps.json
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\bin\Debug\net9.0\Hr.Domain.dll
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\bin\Debug\net9.0\Hr.Domain.pdb
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.AssemblyInfoInputs.cache
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.AssemblyInfo.cs
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.sourcelink.json
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.dll
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\refint\Hr.Domain.dll
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\Hr.Domain.pdb
+C:\Users\Emil\source\repos\emilm0404\repotasks\task3\Hr.Domain\obj\Debug\net9.0\ref\Hr.Domain.dll

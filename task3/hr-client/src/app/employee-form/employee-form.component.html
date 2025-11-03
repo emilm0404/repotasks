@@ -1,0 +1,39 @@
+<h2 *ngIf="!id">Add Employee</h2>
+<h2 *ngIf="id">Edit Employee</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()" class="card">
+    <p class="err" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+    <div class="row">
+        <div class="col">
+            <label>First Name</label>
+            <input formControlName="firstName" />
+            <div class="err" *ngIf="form.get('firstName')?.invalid && form.get('firstName')?.touched">
+                Required, max 100 chars.
+            </div>
+        </div>
+
+        <div class="col">
+            <label>Last Name</label>
+            <input formControlName="lastName" />
+            <div class="err" *ngIf="form.get('lastName')?.invalid && form.get('lastName')?.touched">
+                Required, max 100 chars.
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <label>Employee Number</label>
+            <input formControlName="employeeNumber" />
+            <div class="err" *ngIf="form.get('employeeNumber')?.invalid && form.get('employeeNumber')?.touched">
+                Required, 3-20 chars, uppercase letters, digits or '-' only.
+            </div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <button class="btn primary" type="submit" [disabled]="form.invalid || saving">Save</button>
+        <button type="button" class="btn" (click)="cancel()">Cancel</button>
+    </div>
+</form>

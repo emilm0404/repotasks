@@ -1,0 +1,9 @@
+<nav class="app-nav">
+    <a routerLink="/employees" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Employees</a>
+    <a routerLink="/employees/new" routerLinkActive="active">Add</a>
+</nav>
+
+<div class="page">
+    <p id="ping" style="margin:0 0 12px; color:#6b7280;">Angular up</p>
+    <router-outlet></router-outlet>
+</div>

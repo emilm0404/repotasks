@@ -1,0 +1,33 @@
+### health check
+GET http://localhost:5000/health
+Accept: text/plain
+
+
+### get most borrowed books
+GET http://localhost:5000/api/books/most-borrowed
+Accept: application/json
+
+
+### get book availability by ID
+GET http://localhost:5000/api/books/1/availability
+Accept: application/json
+
+
+### get books also borrowed by same users
+GET http://localhost:5000/api/books/1/also-borrowed
+Accept: application/json
+
+
+### get book read rate
+GET http://localhost:5000/api/books/1/read-rate
+Accept: application/json
+
+
+### get top borrowers in time frame
+GET http://localhost:5000/api/users/top-borrowers?start=2024-01-01&end=2025-01-01
+Accept: application/json
+
+
+### get user borrowed books by period
+GET http://localhost:5000/api/users/1/borrowed?start=2024-01-01&end=2025-01-01
+Accept: application/json
