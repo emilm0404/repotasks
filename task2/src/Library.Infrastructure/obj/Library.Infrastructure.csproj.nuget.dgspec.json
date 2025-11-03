@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj": {}
+    "C:\\Users\\Emil\\Downloads\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj": {
+    "C:\\Users\\Emil\\Downloads\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Emil\\Downloads\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj",
         "projectName": "Library.Infrastructure",
-        "projectPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task2\\src\\Library.Infrastructure\\Library.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task2\\src\\Library.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task2\\src\\Library.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

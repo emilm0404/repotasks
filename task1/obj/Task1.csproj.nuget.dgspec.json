@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task1\\Task1.csproj": {}
+    "C:\\Users\\Emil\\Downloads\\repotasks\\task1\\Task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task1\\Task1.csproj": {
+    "C:\\Users\\Emil\\Downloads\\repotasks\\task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task1\\Task1.csproj",
+        "projectUniqueName": "C:\\Users\\Emil\\Downloads\\repotasks\\task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task1\\Task1.csproj",
+        "projectPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task1\\Task1.csproj",
         "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task1\\obj\\",
+        "outputPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

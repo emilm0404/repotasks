@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SisqL65Yk+0=",
+  "dgSpecHash": "XwMsibu0cyU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Tests\\Hr.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Tests\\Hr.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emil\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Emil\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

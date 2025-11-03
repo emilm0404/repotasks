@@ -2788,11 +2788,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Application\\Hr.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Application\\Hr.Application.csproj",
       "projectName": "Hr.Application",
-      "projectPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Application\\Hr.Application.csproj",
+      "projectPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Application\\Hr.Application.csproj",
       "packagesPath": "C:\\Users\\Emil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Application\\obj\\",
+      "outputPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2814,11 +2814,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Domain\\Hr.Domain.csproj": {
-              "projectPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Domain\\Hr.Domain.csproj"
+            "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Domain\\Hr.Domain.csproj": {
+              "projectPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Domain\\Hr.Domain.csproj"
             },
-            "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Infrastructure\\Hr.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Emil\\source\\repos\\emilm0404\\repotasks\\task3\\Hr.Infrastructure\\Hr.Infrastructure.csproj"
+            "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Infrastructure\\Hr.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Emil\\Downloads\\repotasks\\task3\\Hr.Infrastructure\\Hr.Infrastructure.csproj"
             }
           }
         }

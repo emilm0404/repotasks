@@ -127,7 +127,6 @@ public class EmployeeServiceTests : IDisposable
         await _sut.Awaiting(s => s.DeleteAsync(created.Id, deleteBytes, default))
             .Should().NotThrowAsync();
 
-        // Recreate for stale concurrency scenario
         var recreated = await _sut.CreateAsync(new EmployeeCreateDto
         {
             FirstName = "Chris",
@@ -135,7 +134,7 @@ public class EmployeeServiceTests : IDisposable
             EmployeeNumber = "E-5000"
         }, default);
 
-        var staleBytes = new byte[8]; // incorrect rowVersion
+        var staleBytes = new byte[8]; 
 
         await _sut.Awaiting(s => s.DeleteAsync(recreated.Id, staleBytes, default))
             .Should().ThrowAsync<InvalidOperationException>()
