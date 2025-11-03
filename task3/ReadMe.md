@@ -5,7 +5,7 @@ Web app for managing employees. Includes a .NET 9 API (EF Core + SQL Server) and
 ## Run
 ```bash
 dotnet build task3/Task3.Hr.sln
-ASPNETCORE_ENVIRONMENT=Development dotnet run --project task3/Hr.Api --urls http://localhost:5042
+dotnet run --project task3/Hr.Api --urls http://localhost:5042
 
 cd task3/hr-client
 npm install

@@ -10,7 +10,7 @@ Read-only ASP.NET Core API that reports on library activity using Entity Framewo
 ## Run
 ```bash
 dotnet build task2/task2.sln
-ASPNETCORE_ENVIRONMENT=Development dotnet run --project task2/src/Library.Api --urls http://localhost:5000
+dotnet run --project task2/src/Library.Api --urls http://localhost:5000
 ```
 
 Swagger: `/swagger`  
